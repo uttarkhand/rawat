@@ -1,0 +1,478 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Josefin+Sans:ital,wght@1,300&family=Roboto&family=Tiro+Devanagari+Hindi&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Hedvig Letters Serif;
+}
+
+.navbar{
+    width: 100%;
+    border-bottom: 2px solid #F2F2F2;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.logo-location{
+    width: 40%;
+    height: auto;
+   
+    display: flex;
+  
+}
+
+.logo{
+    width: 30%;
+    height: auto;
+    border-right: 2px solid #F2F2F2;
+}
+
+.logo:hover{
+    background: #F2F2F2;
+}
+
+.logo h2{
+    text-align: center;
+    line-height: 2em;
+    font-size: 45px;
+    font-weight: 800;
+    color: #F8CB46;
+}
+
+.logo span{
+    color: #54B226;
+}
+.location{
+    width: 70%;
+   
+}
+
+.location:hover{
+    background: #F2F2F2;
+}
+
+.location h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.location p{
+    text-align: center;
+    line-height: 2em;
+}
+
+.search-bar{
+    width: 35%;
+  
+    height: auto;
+}
+
+.search-bar i{
+    transform: translateX(30px);
+}
+
+.search-bar input{
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border:1px solid #9f9e9e;
+    background: #F8F8F8;
+
+}
+
+.search-bar input::placeholder{
+    padding-left: 1%;
+    font-size: 15px;
+}
+
+.search-bar input[type=text]{
+    padding-left: 10%;
+    outline: none;
+}
+
+
+.txt-btn{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.text{
+    padding-top: 30px;
+}
+
+.btn{
+    padding-top: 20px;
+  
+}
+
+.btn i{
+    padding: 0px 10px;
+}
+
+
+
+.btn button{
+    width: 150%;
+    height: 60%;
+    background: #0C831F;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* section 2 starts here */
+/* .banner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+.banner img{
+    width: 100%;
+    padding: 0px 30px;
+    cursor: pointer;
+    object-fit: fill;
+}
+
+/* section 3 starts here */
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+}
+
+.images img{
+    width: 23%;
+    object-fit: fill;
+}
+
+/* section 4 starts here */
+.all-images{
+    display: flex;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.all-images img{
+    width:10%;
+    cursor: pointer;
+}
+
+/* section 5 starts here */
+.head-card{
+
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 30px; */
+    cursor: pointer;
+}
+.heading h2{
+    font-size: 30px;
+}
+.heading p{
+    font-size: 22px;
+    color: #0C831F;
+}
+.all-boxes{
+   display: flex;
+   width: 100%;
+  
+   height: auto;
+   justify-content: space-evenly;
+}
+
+.cards{
+    background: #fff;
+    width: 16%;
+    height: 38%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
+    
+}
+
+.image img{
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.timer{
+    border-radius: 5px;
+    width: 30%;
+    padding: 3px;
+    background: #F2F2F2;
+    margin: 0px 20px;
+}
+.timer i{
+    font-size: 9px;
+    padding: 3px;
+}
+
+.timer span{
+    font-size: 9px;
+}
+
+.content p{
+    font-size: 18px;
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+
+.price-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.price-btn button{
+    width: 38%;
+    height: 28px;
+    background: #F7FFF9;
+    border: 1px solid #48A448;
+    border-radius: 6px;
+    color: #48A448;
+    font-weight: bolder;
+}
+
+/* section 7 starts here */
+
+.ad{
+    background: #0C831F;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+/* footer starts here */
+footer{
+    /* background: green; */
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    padding: 50px 30px;
+    border-bottom: 2px solid #6A6A6A;
+}
+
+footer h2{
+    padding-left: 28px;
+}
+
+.useful-links{
+    display: flex;
+    width:40%;
+    /* background: red; */
+    justify-content: space-evenly;
+
+}
+
+.useful-links ul{
+    list-style: none;
+}
+
+.useful-links ul li a{
+    text-decoration: none;
+    line-height: 2em;
+    color: #6A6A6A;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+}
+
+.categories{
+    width: 60%;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.categories ul{
+    list-style: none;
+}
+
+.categories ul li a{
+    text-decoration: none;
+    line-height: 2em;
+    color: #6A6A6A;
+}
+
+.footer-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px 30px;
+}
+
+.content-1{
+    width: 40%;
+  
+    height: auto;
+
+}
+
+.app{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.app p{
+    padding: 0px 10px;
+}
+
+.app img{
+    padding: 0px 5px;
+}
+.icons{
+    width: 30%;
+   
+    height:auto;
+}
+
+.icons i{
+    font-size: 40px;
+    float: right;
+    padding: 0px 5px;
+}
+.navbar-2{
+    display: none;
+}
+.all-cards{
+    display: none;
+}
+
+
+
+/* mobile responsive */
+@media only screen and (max-width: 768px){
+   .navbar{
+    display: none;
+   }
+   .navbar-2{
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+   }
+
+   .content-2{
+    width: 80%;
+    /* background: green; */
+    cursor: pointer;
+   }
+   .icon-2{
+    width: 20%;
+    /* background: yellow; */
+    cursor: pointer;
+   }
+  .icon-2 i{
+    border: 2px solid #000;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    float: right;
+  }
+  .heading h2{
+    font-size: 20px;
+    /* display: none; */
+  }
+  .heading p{
+    font-size: 15px;
+    /* display: none; */
+  }
+  footer{
+    /* display: none; */
+    font-size: 10px;
+  }
+  .footer-2{
+    display: none;
+  }
+  .ad{
+    display: none;
+  }
+  .all-boxes{
+    display: none;
+  }
+.all-cards{
+    display: flex;
+    margin: 10px 0px;
+}
+  .cards-2{
+    width: 40%;
+    height: auto;
+    /* background: yellow; */
+    border: 2px solid #E8E8E8;
+    border-radius: 10px;
+    margin: 0px 30px;
+
+    
+  }
+  .image-2 img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   /* height: 50px; */
+  }
+  .timer-2{
+    margin: 0px 20px;
+  }
+  .timer-2 i{
+     font-size: 10px;
+  }
+  .timer-2 span{
+    font-size: 10px;
+  }
+  .content-3{
+    margin: 0px 20px;
+  }
+  .content-3 p{
+    font-size: 11px;
+  }
+
+  .price-btn-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+  }
+
+  .price-btn-2 p{
+    font-size: 11px;
+  }
+  .price-btn-2 button{
+    width: 35%;
+    height: 22px;
+    background: #F7FFF9;
+    border: 1px solid #48A448;
+    border-radius: 6px;
+    color: #48A448;
+    font-weight: bolder;
+    font-size: 10px;
+  }
+
+
+}
